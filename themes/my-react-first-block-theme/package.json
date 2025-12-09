@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
    "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./style.css --minify",
-   "watch:css": "tailwindcss -i ./src/styles/tailwind.css -o ./style.css --watch"
+   "watch:css": "tailwindcss -i ./src/styles/tailwind.css -o ./style.css --watch",
+   "dev": "npm run watch:css",
+   "build": "npm run build:css"
   },
   "devDependencies": {
     "@wordpress/scripts": "^28.0.0",

@@ -2,8 +2,8 @@
   "name": "my-react-first-block-theme",
   "version": "1.0.0",
   "scripts": {
-   "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./style.css --minify",
-   "watch:css": "tailwindcss -i ./src/styles/tailwind.css -o ./style.css --watch",
+   "build:css": "tailwindcss -i ./src/styles/tailwind.css -o ./temp.css --minify && cat style.css ./temp.css > style-build.css && mv style-build.css style.css",
+   "watch:css": "tailwindcss -i ./src/styles/tailwind.css -o ./temp.css --watch",
    "dev": "npm run watch:css",
    "build": "npm run build:css"
   },

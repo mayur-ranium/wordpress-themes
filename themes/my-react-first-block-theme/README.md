@@ -23,6 +23,7 @@ my-first-react-block-theme/
 
 
 ---
+```
 
 ## Getting Started
 

@@ -1,0 +1,10 @@
+{
+  "apiVersion": 3,
+  "name": "mytheme/my-react-block",
+  "title": "My React Block",
+  "category": "widgets",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

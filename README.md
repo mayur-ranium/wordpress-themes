@@ -32,7 +32,7 @@ cd themes/my-first-react-block-theme
 
 ```bash
 npm install
-npm run build:css
+npm run dev
 ```
 Collaboration Guidelines
 

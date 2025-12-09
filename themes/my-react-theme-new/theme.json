@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#2563eb",
+          "name": "Primary Blue"
+        },
+        {
+          "slug": "secondary",
+          "color": "#64748b",
+          "name": "Secondary Gray"
+        },
+        {
+          "slug": "dark",
+          "color": "#1e293b",
+          "name": "Dark"
+        },
+        {
+          "slug": "light",
+          "color": "#f8fafc",
+          "name": "Light"
+        },
+        {
+          "slug": "white",
+          "color": "#ffffff",
+          "name": "White"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "css": "style.css",
+    "color": {
+      "background": "#f8fafc"
+    }
+  }
+}

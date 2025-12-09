@@ -10,23 +10,28 @@
       "palette": [
         {
           "slug": "primary",
-          "color": "#2563eb",
-          "name": "Primary Blue"
+          "color": "#7c3aed",
+          "name": "Primary Purple"
         },
         {
           "slug": "secondary",
-          "color": "#64748b",
-          "name": "Secondary Gray"
+          "color": "#ec4899",
+          "name": "Secondary Pink"
+        },
+        {
+          "slug": "accent",
+          "color": "#06b6d4",
+          "name": "Accent Cyan"
         },
         {
           "slug": "dark",
-          "color": "#1e293b",
-          "name": "Dark"
+          "color": "#0f172a",
+          "name": "Dark Slate"
         },
         {
           "slug": "light",
-          "color": "#f8fafc",
-          "name": "Light"
+          "color": "#f0f9ff",
+          "name": "Light Sky"
         },
         {
           "slug": "white",
@@ -39,7 +44,7 @@
   "styles": {
     "css": "style.css",
     "color": {
-      "background": "#f8fafc"
+      "background": "#f8f8ff"
     }
   }
 }

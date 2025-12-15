@@ -1,0 +1,160 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+    "settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "450px",
+			"wideSize": "760px"
+		},
+		"typography": {
+		   "fontSizes": [
+			{
+				"slug": "small",
+				"size": "13px",
+				"name": "Small size"
+			},
+			{
+				"slug": "medium",
+				"size": "15px",
+				"name": "Medium size"
+			}
+		   ],
+		   "customFontSize": false,
+		   "fontFamilies": [
+			{
+				"slug": "Nunito",
+				"name": "Regular text",
+				"fontFamily": "Nunito Sans"
+			},
+			{
+				"slug": "heading",
+				"name": "Heading font",
+				"fontFamily": "Nunito Sans"
+			}
+		   ]
+		},
+		"color": {
+			"background": true,
+			"custom": true,
+			"text": true,
+			"link": true,
+			"defaultPalette": false,
+			"palette" : [
+				{
+					"slug": "rudr-black",
+					"color": "#333333",
+					"name": "Black"
+				},
+				{
+					"slug": "rudr-blue",
+					"color": "#1e73be",
+					"name": "Blue"
+				},
+				{
+					"slug": "rudr-red",
+					"color": "#d63638",
+					"name": "Red"
+				}
+			],
+			"defaultGradients": false,
+			"gradients": [
+				{
+					"slug": "header-gdr",
+					"gradient": "linear-gradient(90deg,rgba(246, 202, 237, 1) 0%, rgba(168, 159, 240, 1) 100%)",
+					"name": "My header awsome gradient"
+				},
+				{
+					"slug": "footer-gdr",
+					"gradient": "linear-gradient(90deg,rgba(240, 198, 236, 1) 0%, rgba(165, 158, 239, 1) 100%)",
+					"name": "gradient-2"
+				}
+			],
+			"defaultDuotone": false,
+			"customDuotone": false,
+			"duotone": [
+				{
+					"slug": "black-white",
+					"colors": [ "#000", "#fff"],
+					"name": "my custom duotone"
+				}
+			]
+		},
+		"blocks": {
+			"core/post-date" : {
+				"color" : {
+					"defaultGradients": false,
+					"customGradient": false,
+					"gradients": []
+				},
+				"typography": {
+					"fontSizes": []
+				}
+			},
+			"core/cover" : {
+				"color": {
+					"duotone": []
+				}
+			}
+		}
+    },
+    "styles": {
+       "typography": {
+			"fontFamily": "Nunito Sans",
+			"fontSize": "13px",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.55"
+		},
+        "color": {
+			"background": "#f0f0f0",
+			"text": "#333333"
+		},
+        "elements": {
+           "heading": {
+				"color": {
+					"text": "#333333"
+				},
+				"typography": {
+					"fontFamily": "Nunito Sans",
+					"fontWeight": "400",
+					"lineHeight": "1.2"
+				}
+			},
+			"link": {
+						"color": {
+							"text": "#1e73be"
+						},
+						"typography": {
+								"textDecoration": "none"
+						},
+						":hover": {
+							"color": {
+								"text": "#d63638"
+							},
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					},
+			"button": {
+				"border": {
+					"radius": "8px"
+				}
+			}
+				    
+        }
+    },
+    "templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "My Footer"
+		}
+    ]
+}
